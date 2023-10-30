@@ -1,20 +1,20 @@
-import React, { useState } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import {
-  increment,
-  incrementAsync,
-  selectCount,
-} from './counterSlice';
+// import React, { useState } from 'react';
+// import { useSelector, useDispatch } from 'react-redux';
+// import {
+//   increment,
+//   incrementAsync,
+//   selectCount,
+// } from './productSlice';
 
-export function Counter() {
-  const count = useSelector(selectCount);
-  const dispatch = useDispatch();
+// export function Counter() {
+//   const count = useSelector(selectCount);
+//   const dispatch = useDispatch();
 
 
   
-  return (
-    <div>
+//   return (
+//     <div>
       
-    </div>
-  );
-}
+//     </div>
+//   );
+// }

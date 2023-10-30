@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { Fragment } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
+import { Link } from "react-router-dom";
 
 const products = [
   {
@@ -12,7 +13,7 @@ const products = [
     color: "Salmon",
     price: "$90.00",
     quantity: 1,
-    imageSrc:
+    thumbnail:
       "https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-01.jpg",
     imageAlt:
       "Salmon orange fabric pouch with match zipper, gray zipper pull, and adjustable hip belt.",
@@ -24,7 +25,7 @@ const products = [
     color: "Blue",
     price: "$32.00",
     quantity: 1,
-    imageSrc:
+    thumbnail:
       "https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg",
     imageAlt:
       "Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch.",
@@ -48,7 +49,7 @@ export function Cart() {
                 <li key={product.id} className="flex py-6">
                   <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
                     <img
-                      src={product.imageSrc}
+                      src={product.thumbnail}
                       alt={product.imageAlt}
                       className="h-full w-full object-cover object-center"
                     />
@@ -99,16 +100,16 @@ export function Cart() {
             Shipping and taxes calculated at checkout.
           </p>
           <div className="mt-6">
-            <a
-              href="#"
+          <Link to = "/checkout"
               className="flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
             >
               Checkout
-            </a>
+            </Link>
           </div>
           <div className="mt-6 flex justify-center text-center text-sm text-gray-500">
             <p>
               or
+              <Link to = "/">
               <button
                 type="button"
                 className="font-medium text-indigo-600 hover:text-indigo-500"
@@ -117,6 +118,7 @@ export function Cart() {
                 Continue Shopping
                 <span aria-hidden="true"> &rarr;</span>
               </button>
+              </Link>
             </p>
           </div>
         </div>
