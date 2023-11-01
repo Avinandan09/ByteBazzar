@@ -425,12 +425,796 @@
     {
       "email": "avinandanmondal72@gmail.com",
       "password": "@Avinandan123",
+      "addresses": [
+        {
+          "name": "Avinandan Mondal",
+          "email": "avinandanmondal72@gmail.com",
+          "phone": "07908424533",
+          "street": "Saradapally ,Panchpota,Garia station.",
+          "city": "Kolkata",
+          "state": "--- Please Select ---",
+          "pinCode": "700152"
+        }
+      ],
       "id": 1
     },
     {
       "email": "avinandanmondal73@gmail.com",
       "password": "@Hello123",
+      "addresses": [],
       "id": 2
+    },
+    {
+      "email": "demo@gmail.com",
+      "password": "@Hello123",
+      "addresses": [],
+      "id": 3
+    }
+  ],
+  "cart": [
+    {
+      "title": "MSI GEFORCE RTX 3090 TI SUPRIM X 24GB GDDR6X",
+      "description": "The GeForce RTX™ 3090 Ti is colossally powerful in every way, giving you a whole new tier of performance. It’s powered by the NVIDIA Ampere architecture, which doubles down on ray tracing and AI performance with enhanced RT Cores, Tensor Cores, and new streaming multiprocessors.",
+      "price": 142000,
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "brand": "MSI",
+      "category": "Graphics-Card",
+      "thumbnail": "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-1-550x550.jpg",
+      "images": [
+        "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-2-550x550.jpg",
+        "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+        "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+        "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-4-550x550.jpg"
+      ],
+      "quantity": 1,
+      "user": 1,
+      "id": 1
+    }
+  ],
+  "orders": [
+    {
+      "items": [
+        {
+          "title": "MSI GEFORCE RTX 3090 TI SUPRIM X 24GB GDDR6X",
+          "description": "The GeForce RTX™ 3090 Ti is colossally powerful in every way, giving you a whole new tier of performance. It’s powered by the NVIDIA Ampere architecture, which doubles down on ray tracing and AI performance with enhanced RT Cores, Tensor Cores, and new streaming multiprocessors.",
+          "price": 142000,
+          "discountPercentage": 12.96,
+          "rating": 4.69,
+          "stock": 94,
+          "brand": "MSI",
+          "category": "Graphics-Card",
+          "thumbnail": "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-1-550x550.jpg",
+          "images": [
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-2-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-4-550x550.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 142000,
+      "totalItems": 1,
+      "user": {
+        "email": "avinandanmondal72@gmail.com",
+        "password": "@Avinandan123",
+        "addresses": [
+          {
+            "name": "Avinandan Mondal",
+            "email": "avinandanmondal72@gmail.com",
+            "phone": "07908424533",
+            "street": "Saradapally ,Panchpota,Garia station.",
+            "city": "Kolkata",
+            "state": "--- Please Select ---",
+            "pinCode": "700152"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Avinandan Mondal",
+        "email": "avinandanmondal72@gmail.com",
+        "phone": "07908424533",
+        "street": "Saradapally ,Panchpota,Garia station.",
+        "city": "Kolkata",
+        "state": "--- Please Select ---",
+        "pinCode": "700152"
+      },
+      "id": 1
+    },
+    {
+      "items": [
+        {
+          "title": "MSI GEFORCE RTX 3090 TI SUPRIM X 24GB GDDR6X",
+          "description": "The GeForce RTX™ 3090 Ti is colossally powerful in every way, giving you a whole new tier of performance. It’s powered by the NVIDIA Ampere architecture, which doubles down on ray tracing and AI performance with enhanced RT Cores, Tensor Cores, and new streaming multiprocessors.",
+          "price": 142000,
+          "discountPercentage": 12.96,
+          "rating": 4.69,
+          "stock": 94,
+          "brand": "MSI",
+          "category": "Graphics-Card",
+          "thumbnail": "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-1-550x550.jpg",
+          "images": [
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-2-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-4-550x550.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 142000,
+      "totalItems": 1,
+      "user": {
+        "email": "avinandanmondal72@gmail.com",
+        "password": "@Avinandan123",
+        "addresses": [
+          {
+            "name": "Avinandan Mondal",
+            "email": "avinandanmondal72@gmail.com",
+            "phone": "07908424533",
+            "street": "Saradapally ,Panchpota,Garia station.",
+            "city": "Kolkata",
+            "state": "--- Please Select ---",
+            "pinCode": "700152"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Avinandan Mondal",
+        "email": "avinandanmondal72@gmail.com",
+        "phone": "07908424533",
+        "street": "Saradapally ,Panchpota,Garia station.",
+        "city": "Kolkata",
+        "state": "--- Please Select ---",
+        "pinCode": "700152"
+      },
+      "id": 2
+    },
+    {
+      "items": [
+        {
+          "title": "MSI GEFORCE RTX 3090 TI SUPRIM X 24GB GDDR6X",
+          "description": "The GeForce RTX™ 3090 Ti is colossally powerful in every way, giving you a whole new tier of performance. It’s powered by the NVIDIA Ampere architecture, which doubles down on ray tracing and AI performance with enhanced RT Cores, Tensor Cores, and new streaming multiprocessors.",
+          "price": 142000,
+          "discountPercentage": 12.96,
+          "rating": 4.69,
+          "stock": 94,
+          "brand": "MSI",
+          "category": "Graphics-Card",
+          "thumbnail": "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-1-550x550.jpg",
+          "images": [
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-2-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-4-550x550.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 142000,
+      "totalItems": 1,
+      "user": {
+        "email": "avinandanmondal72@gmail.com",
+        "password": "@Avinandan123",
+        "addresses": [
+          {
+            "name": "Avinandan Mondal",
+            "email": "avinandanmondal72@gmail.com",
+            "phone": "07908424533",
+            "street": "Saradapally ,Panchpota,Garia station.",
+            "city": "Kolkata",
+            "state": "--- Please Select ---",
+            "pinCode": "700152"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Avinandan Mondal",
+        "email": "avinandanmondal72@gmail.com",
+        "phone": "07908424533",
+        "street": "Saradapally ,Panchpota,Garia station.",
+        "city": "Kolkata",
+        "state": "--- Please Select ---",
+        "pinCode": "700152"
+      },
+      "id": 3
+    },
+    {
+      "items": [
+        {
+          "title": "MSI GEFORCE RTX 3090 TI SUPRIM X 24GB GDDR6X",
+          "description": "The GeForce RTX™ 3090 Ti is colossally powerful in every way, giving you a whole new tier of performance. It’s powered by the NVIDIA Ampere architecture, which doubles down on ray tracing and AI performance with enhanced RT Cores, Tensor Cores, and new streaming multiprocessors.",
+          "price": 142000,
+          "discountPercentage": 12.96,
+          "rating": 4.69,
+          "stock": 94,
+          "brand": "MSI",
+          "category": "Graphics-Card",
+          "thumbnail": "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-1-550x550.jpg",
+          "images": [
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-2-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-4-550x550.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 142000,
+      "totalItems": 1,
+      "user": {
+        "email": "avinandanmondal72@gmail.com",
+        "password": "@Avinandan123",
+        "addresses": [
+          {
+            "name": "Avinandan Mondal",
+            "email": "avinandanmondal72@gmail.com",
+            "phone": "07908424533",
+            "street": "Saradapally ,Panchpota,Garia station.",
+            "city": "Kolkata",
+            "state": "--- Please Select ---",
+            "pinCode": "700152"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Avinandan Mondal",
+        "email": "avinandanmondal72@gmail.com",
+        "phone": "07908424533",
+        "street": "Saradapally ,Panchpota,Garia station.",
+        "city": "Kolkata",
+        "state": "--- Please Select ---",
+        "pinCode": "700152"
+      },
+      "id": 4
+    },
+    {
+      "items": [
+        {
+          "title": "MSI GEFORCE RTX 3090 TI SUPRIM X 24GB GDDR6X",
+          "description": "The GeForce RTX™ 3090 Ti is colossally powerful in every way, giving you a whole new tier of performance. It’s powered by the NVIDIA Ampere architecture, which doubles down on ray tracing and AI performance with enhanced RT Cores, Tensor Cores, and new streaming multiprocessors.",
+          "price": 142000,
+          "discountPercentage": 12.96,
+          "rating": 4.69,
+          "stock": 94,
+          "brand": "MSI",
+          "category": "Graphics-Card",
+          "thumbnail": "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-1-550x550.jpg",
+          "images": [
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-2-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-4-550x550.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 142000,
+      "totalItems": 1,
+      "user": {
+        "email": "avinandanmondal72@gmail.com",
+        "password": "@Avinandan123",
+        "addresses": [
+          {
+            "name": "Avinandan Mondal",
+            "email": "avinandanmondal72@gmail.com",
+            "phone": "07908424533",
+            "street": "Saradapally ,Panchpota,Garia station.",
+            "city": "Kolkata",
+            "state": "--- Please Select ---",
+            "pinCode": "700152"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Avinandan Mondal",
+        "email": "avinandanmondal72@gmail.com",
+        "phone": "07908424533",
+        "street": "Saradapally ,Panchpota,Garia station.",
+        "city": "Kolkata",
+        "state": "--- Please Select ---",
+        "pinCode": "700152"
+      },
+      "id": 5
+    },
+    {
+      "items": [
+        {
+          "title": "MSI GEFORCE RTX 3090 TI SUPRIM X 24GB GDDR6X",
+          "description": "The GeForce RTX™ 3090 Ti is colossally powerful in every way, giving you a whole new tier of performance. It’s powered by the NVIDIA Ampere architecture, which doubles down on ray tracing and AI performance with enhanced RT Cores, Tensor Cores, and new streaming multiprocessors.",
+          "price": 142000,
+          "discountPercentage": 12.96,
+          "rating": 4.69,
+          "stock": 94,
+          "brand": "MSI",
+          "category": "Graphics-Card",
+          "thumbnail": "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-1-550x550.jpg",
+          "images": [
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-2-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-4-550x550.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 142000,
+      "totalItems": 1,
+      "user": {
+        "email": "avinandanmondal72@gmail.com",
+        "password": "@Avinandan123",
+        "addresses": [
+          {
+            "name": "Avinandan Mondal",
+            "email": "avinandanmondal72@gmail.com",
+            "phone": "07908424533",
+            "street": "Saradapally ,Panchpota,Garia station.",
+            "city": "Kolkata",
+            "state": "--- Please Select ---",
+            "pinCode": "700152"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Avinandan Mondal",
+        "email": "avinandanmondal72@gmail.com",
+        "phone": "07908424533",
+        "street": "Saradapally ,Panchpota,Garia station.",
+        "city": "Kolkata",
+        "state": "--- Please Select ---",
+        "pinCode": "700152"
+      },
+      "id": 6
+    },
+    {
+      "items": [
+        {
+          "title": "MSI GEFORCE RTX 3090 TI SUPRIM X 24GB GDDR6X",
+          "description": "The GeForce RTX™ 3090 Ti is colossally powerful in every way, giving you a whole new tier of performance. It’s powered by the NVIDIA Ampere architecture, which doubles down on ray tracing and AI performance with enhanced RT Cores, Tensor Cores, and new streaming multiprocessors.",
+          "price": 142000,
+          "discountPercentage": 12.96,
+          "rating": 4.69,
+          "stock": 94,
+          "brand": "MSI",
+          "category": "Graphics-Card",
+          "thumbnail": "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-1-550x550.jpg",
+          "images": [
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-2-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-4-550x550.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 142000,
+      "totalItems": 1,
+      "user": {
+        "email": "avinandanmondal72@gmail.com",
+        "password": "@Avinandan123",
+        "addresses": [
+          {
+            "name": "Avinandan Mondal",
+            "email": "avinandanmondal72@gmail.com",
+            "phone": "07908424533",
+            "street": "Saradapally ,Panchpota,Garia station.",
+            "city": "Kolkata",
+            "state": "--- Please Select ---",
+            "pinCode": "700152"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Avinandan Mondal",
+        "email": "avinandanmondal72@gmail.com",
+        "phone": "07908424533",
+        "street": "Saradapally ,Panchpota,Garia station.",
+        "city": "Kolkata",
+        "state": "--- Please Select ---",
+        "pinCode": "700152"
+      },
+      "id": 7
+    },
+    {
+      "items": [
+        {
+          "title": "MSI GEFORCE RTX 3090 TI SUPRIM X 24GB GDDR6X",
+          "description": "The GeForce RTX™ 3090 Ti is colossally powerful in every way, giving you a whole new tier of performance. It’s powered by the NVIDIA Ampere architecture, which doubles down on ray tracing and AI performance with enhanced RT Cores, Tensor Cores, and new streaming multiprocessors.",
+          "price": 142000,
+          "discountPercentage": 12.96,
+          "rating": 4.69,
+          "stock": 94,
+          "brand": "MSI",
+          "category": "Graphics-Card",
+          "thumbnail": "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-1-550x550.jpg",
+          "images": [
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-2-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-4-550x550.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 142000,
+      "totalItems": 1,
+      "user": {
+        "email": "avinandanmondal72@gmail.com",
+        "password": "@Avinandan123",
+        "addresses": [
+          {
+            "name": "Avinandan Mondal",
+            "email": "avinandanmondal72@gmail.com",
+            "phone": "07908424533",
+            "street": "Saradapally ,Panchpota,Garia station.",
+            "city": "Kolkata",
+            "state": "--- Please Select ---",
+            "pinCode": "700152"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Avinandan Mondal",
+        "email": "avinandanmondal72@gmail.com",
+        "phone": "07908424533",
+        "street": "Saradapally ,Panchpota,Garia station.",
+        "city": "Kolkata",
+        "state": "--- Please Select ---",
+        "pinCode": "700152"
+      },
+      "id": 8
+    },
+    {
+      "items": [
+        {
+          "title": "MSI GEFORCE RTX 3090 TI SUPRIM X 24GB GDDR6X",
+          "description": "The GeForce RTX™ 3090 Ti is colossally powerful in every way, giving you a whole new tier of performance. It’s powered by the NVIDIA Ampere architecture, which doubles down on ray tracing and AI performance with enhanced RT Cores, Tensor Cores, and new streaming multiprocessors.",
+          "price": 142000,
+          "discountPercentage": 12.96,
+          "rating": 4.69,
+          "stock": 94,
+          "brand": "MSI",
+          "category": "Graphics-Card",
+          "thumbnail": "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-1-550x550.jpg",
+          "images": [
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-2-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-4-550x550.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 142000,
+      "totalItems": 1,
+      "user": {
+        "email": "avinandanmondal72@gmail.com",
+        "password": "@Avinandan123",
+        "addresses": [
+          {
+            "name": "Avinandan Mondal",
+            "email": "avinandanmondal72@gmail.com",
+            "phone": "07908424533",
+            "street": "Saradapally ,Panchpota,Garia station.",
+            "city": "Kolkata",
+            "state": "--- Please Select ---",
+            "pinCode": "700152"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Avinandan Mondal",
+        "email": "avinandanmondal72@gmail.com",
+        "phone": "07908424533",
+        "street": "Saradapally ,Panchpota,Garia station.",
+        "city": "Kolkata",
+        "state": "--- Please Select ---",
+        "pinCode": "700152"
+      },
+      "id": 9
+    },
+    {
+      "items": [
+        {
+          "title": "MSI GEFORCE RTX 3090 TI SUPRIM X 24GB GDDR6X",
+          "description": "The GeForce RTX™ 3090 Ti is colossally powerful in every way, giving you a whole new tier of performance. It’s powered by the NVIDIA Ampere architecture, which doubles down on ray tracing and AI performance with enhanced RT Cores, Tensor Cores, and new streaming multiprocessors.",
+          "price": 142000,
+          "discountPercentage": 12.96,
+          "rating": 4.69,
+          "stock": 94,
+          "brand": "MSI",
+          "category": "Graphics-Card",
+          "thumbnail": "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-1-550x550.jpg",
+          "images": [
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-2-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-4-550x550.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 142000,
+      "totalItems": 1,
+      "user": {
+        "email": "avinandanmondal72@gmail.com",
+        "password": "@Avinandan123",
+        "addresses": [
+          {
+            "name": "Avinandan Mondal",
+            "email": "avinandanmondal72@gmail.com",
+            "phone": "07908424533",
+            "street": "Saradapally ,Panchpota,Garia station.",
+            "city": "Kolkata",
+            "state": "--- Please Select ---",
+            "pinCode": "700152"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Avinandan Mondal",
+        "email": "avinandanmondal72@gmail.com",
+        "phone": "07908424533",
+        "street": "Saradapally ,Panchpota,Garia station.",
+        "city": "Kolkata",
+        "state": "--- Please Select ---",
+        "pinCode": "700152"
+      },
+      "id": 10
+    },
+    {
+      "items": [
+        {
+          "title": "MSI GEFORCE RTX 3090 TI SUPRIM X 24GB GDDR6X",
+          "description": "The GeForce RTX™ 3090 Ti is colossally powerful in every way, giving you a whole new tier of performance. It’s powered by the NVIDIA Ampere architecture, which doubles down on ray tracing and AI performance with enhanced RT Cores, Tensor Cores, and new streaming multiprocessors.",
+          "price": 142000,
+          "discountPercentage": 12.96,
+          "rating": 4.69,
+          "stock": 94,
+          "brand": "MSI",
+          "category": "Graphics-Card",
+          "thumbnail": "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-1-550x550.jpg",
+          "images": [
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-2-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-4-550x550.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 142000,
+      "totalItems": 1,
+      "user": {
+        "email": "avinandanmondal72@gmail.com",
+        "password": "@Avinandan123",
+        "addresses": [
+          {
+            "name": "Avinandan Mondal",
+            "email": "avinandanmondal72@gmail.com",
+            "phone": "07908424533",
+            "street": "Saradapally ,Panchpota,Garia station.",
+            "city": "Kolkata",
+            "state": "--- Please Select ---",
+            "pinCode": "700152"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Avinandan Mondal",
+        "email": "avinandanmondal72@gmail.com",
+        "phone": "07908424533",
+        "street": "Saradapally ,Panchpota,Garia station.",
+        "city": "Kolkata",
+        "state": "--- Please Select ---",
+        "pinCode": "700152"
+      },
+      "id": 11
+    },
+    {
+      "items": [
+        {
+          "title": "MSI GEFORCE RTX 3090 TI SUPRIM X 24GB GDDR6X",
+          "description": "The GeForce RTX™ 3090 Ti is colossally powerful in every way, giving you a whole new tier of performance. It’s powered by the NVIDIA Ampere architecture, which doubles down on ray tracing and AI performance with enhanced RT Cores, Tensor Cores, and new streaming multiprocessors.",
+          "price": 142000,
+          "discountPercentage": 12.96,
+          "rating": 4.69,
+          "stock": 94,
+          "brand": "MSI",
+          "category": "Graphics-Card",
+          "thumbnail": "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-1-550x550.jpg",
+          "images": [
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-2-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-4-550x550.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 142000,
+      "totalItems": 1,
+      "user": {
+        "email": "avinandanmondal72@gmail.com",
+        "password": "@Avinandan123",
+        "addresses": [
+          {
+            "name": "Avinandan Mondal",
+            "email": "avinandanmondal72@gmail.com",
+            "phone": "07908424533",
+            "street": "Saradapally ,Panchpota,Garia station.",
+            "city": "Kolkata",
+            "state": "--- Please Select ---",
+            "pinCode": "700152"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Avinandan Mondal",
+        "email": "avinandanmondal72@gmail.com",
+        "phone": "07908424533",
+        "street": "Saradapally ,Panchpota,Garia station.",
+        "city": "Kolkata",
+        "state": "--- Please Select ---",
+        "pinCode": "700152"
+      },
+      "id": 12
+    },
+    {
+      "items": [
+        {
+          "title": "MSI GEFORCE RTX 3090 TI SUPRIM X 24GB GDDR6X",
+          "description": "The GeForce RTX™ 3090 Ti is colossally powerful in every way, giving you a whole new tier of performance. It’s powered by the NVIDIA Ampere architecture, which doubles down on ray tracing and AI performance with enhanced RT Cores, Tensor Cores, and new streaming multiprocessors.",
+          "price": 142000,
+          "discountPercentage": 12.96,
+          "rating": 4.69,
+          "stock": 94,
+          "brand": "MSI",
+          "category": "Graphics-Card",
+          "thumbnail": "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-1-550x550.jpg",
+          "images": [
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-2-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-4-550x550.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 142000,
+      "totalItems": 1,
+      "user": {
+        "email": "avinandanmondal72@gmail.com",
+        "password": "@Avinandan123",
+        "addresses": [
+          {
+            "name": "Avinandan Mondal",
+            "email": "avinandanmondal72@gmail.com",
+            "phone": "07908424533",
+            "street": "Saradapally ,Panchpota,Garia station.",
+            "city": "Kolkata",
+            "state": "--- Please Select ---",
+            "pinCode": "700152"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Avinandan Mondal",
+        "email": "avinandanmondal72@gmail.com",
+        "phone": "07908424533",
+        "street": "Saradapally ,Panchpota,Garia station.",
+        "city": "Kolkata",
+        "state": "--- Please Select ---",
+        "pinCode": "700152"
+      },
+      "id": 13
+    },
+    {
+      "items": [
+        {
+          "title": "MSI GEFORCE RTX 3090 TI SUPRIM X 24GB GDDR6X",
+          "description": "The GeForce RTX™ 3090 Ti is colossally powerful in every way, giving you a whole new tier of performance. It’s powered by the NVIDIA Ampere architecture, which doubles down on ray tracing and AI performance with enhanced RT Cores, Tensor Cores, and new streaming multiprocessors.",
+          "price": 142000,
+          "discountPercentage": 12.96,
+          "rating": 4.69,
+          "stock": 94,
+          "brand": "MSI",
+          "category": "Graphics-Card",
+          "thumbnail": "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-1-550x550.jpg",
+          "images": [
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-2-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-3-550x550.jpg",
+            "https://www.vedantcomputers.com/image/cache/catalog/assets/product/msi/graphics-card/geforce-rtx-3090-ti-suprim-x-24g/geforce-rtx-3090-ti-suprim-x-24g-4-550x550.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 142000,
+      "totalItems": 1,
+      "user": {
+        "email": "avinandanmondal72@gmail.com",
+        "password": "@Avinandan123",
+        "addresses": [
+          {
+            "name": "Avinandan Mondal",
+            "email": "avinandanmondal72@gmail.com",
+            "phone": "07908424533",
+            "street": "Saradapally ,Panchpota,Garia station.",
+            "city": "Kolkata",
+            "state": "--- Please Select ---",
+            "pinCode": "700152"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Avinandan Mondal",
+        "email": "avinandanmondal72@gmail.com",
+        "phone": "07908424533",
+        "street": "Saradapally ,Panchpota,Garia station.",
+        "city": "Kolkata",
+        "state": "--- Please Select ---",
+        "pinCode": "700152"
+      },
+      "id": 14
     }
   ]
 }
